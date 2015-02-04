@@ -10,13 +10,7 @@ int Rectangle::area() const {return m_h*m_w;}
 
 int Rectangle::perimeter() const {return 2*(m_w+m_h);}
 
-double Rectangle::contains(const Rectangle& other) const
-{
-if( other.m_x<=m_x || other.m_y<=m_y ||
-	other.m_x+other.m_w >= m_x+m_w ||other.m_y+other.m_h >= m_y+m_h
-) return 0;
-return 1;
-}
+double Rectangle::contains(const Rectangle& other) const {}
 
 std::ostream& operator<<(std::ostream& os, const Rectangle& rct)
 {
