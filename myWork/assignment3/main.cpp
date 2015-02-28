@@ -39,26 +39,6 @@ int main(int argc, char * argv[])
 				std::cout << "Bad input, try again." << std::endl;
 			}
 		}
-/*		for (std::vector<std::string>::iterator it=strings.begin(); 
-				it!=strings.end(); it++)	
-		{
-			std::string line = *it;
-			if (line[0] != 'A')
-			{
-				strings.erase(it);
-				it--;
-			}
-			else
-			{
-				*it = StringFunctions::toupper(line);
-			}
-		}
-
-		for (std::vector<std::string>::iterator it=strings.begin(); 
-				it!=strings.end(); it++)	
-		{
-			std::cout << StringFunctions::reverse(*it) << std::endl;
-		}*/
 	}
 	catch (std::string err)
 	{
