@@ -4,13 +4,13 @@
 
 void printRectangle(char ch, int x, int y, int w, int h)
 {
-	string k("");
+	char[] k("");
 	for(int i(0);i<h;i++){
 		for(int j(0);j<w;j++)
 			k += ch;
 		k+="\n";
 	}
-std::cout << k;
+	std::cout << k;
 }
 int area(int w, int h)
 {
