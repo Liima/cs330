@@ -7,7 +7,7 @@
 
 int main(int argc, char * argv[])
 {
-	std::vector<int> letters(26);
+	std::vector<int> letters(26, 0);
 	try
 	{
 		FileReader in("wordlist.txt");
